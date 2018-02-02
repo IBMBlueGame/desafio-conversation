@@ -3,11 +3,11 @@ Preparado para ganhar um alienware? Se sim, este será seu primeiro desafio. Lei
 
 ## Passo a Passo
 
-1. Vocé precisará de uma conta na IBM Cloud. Caso ainda não tenha, corra e crie logo a sua clicando [aqui][sign_up].
+1. Vocé precisará de uma conta na IBM Cloud. Caso ainda não tenha, corra e crie logo a sua clicando [aqui][sign_up]. É necessário ter uma conta aqui no GitHUb.
 
 2. Baixe e instale a ferramenta [Cloud-foundry CLI][cloud_foundry], caso ainda não tenha feito.
 
-3. Faça um fork deste projeto e clone (o fork que você acabou de criar) para sua máquina.
+3. Faça um fork (Opção no canto superior à direita, para copiar este projeto para a sua conta GitHub) deste projeto e clone (o fork que você acabou de criar) para sua máquina.
 
 4. Crie o serviço Watson Conversation (Free) em sua conta clicando [aqui][conversation-link]. Permaneça na página para qual foi direcionado após a criação do serviço.
 
@@ -15,7 +15,7 @@ Preparado para ganhar um alienware? Se sim, este será seu primeiro desafio. Lei
 
 6. Uma vez criada a credencial, clique na action `View credentials`. Copie o JSON gerado para um arquivo temporário, logo iremos usá-lo.
 
-7. Ainda na mesma página, volte para a sessão `Manage`.
+7. Ainda na mesma página, clique na opção Manager / Gerenciar, na lateral à esquerda acima.
 
 8. Clique em `Launch Tool`. Caso abra uma tela de login, clique em `Log in with IBM ID`.
 
