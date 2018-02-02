@@ -66,7 +66,7 @@ applications:
 
 16. A partir de agora você precisa instalar (caso ainda não tenha) o NodeJS e o geranciador de pacotes NPM. Siga as instruções disponíveis em https://docs.npmjs.com/getting-started/installing-node. Detalhe muito importante, você precisa pelo menos da versão 8.9.4 do node.
 
-17. Com tudo instalado. Execute o seguinte comando para instalar as dependências do projeto:
+17. Com tudo instalado. Execute o seguinte comando, na pasta do projeto, para instalar as dependências do projeto:
 
   ```none
   npm install
