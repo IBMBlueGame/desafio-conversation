@@ -91,7 +91,7 @@ cf login
 ```sh
     npm run build && cf push
 ```
-23. Veja que legal, você consiguiu terminar o desafio, agora acesse a página do [bluegame][page-link] no facebook e diga para o bot: `desafio conversation finalizado`.
+23. Veja que legal, você consiguiu terminar o desafio, agora acesse a página do [bluegame][page-link] no facebook e diga para o bot: `acabei`.
 
 [sign_up]: https://console.ng.bluemix.net/registration/
 [page-link]: https://www.facebook.com/ibmbluegame/
