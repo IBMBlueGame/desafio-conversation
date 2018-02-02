@@ -1,0 +1,10 @@
+---
+applications:
+- name: <sua-id>-conversation
+  path: .
+  memory: 256M
+  instances: 1
+  buildpack: sdk-for-nodejs
+  route: mybluemix.net
+  command: npm start
+  disk_quota: 1024M
