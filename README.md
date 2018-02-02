@@ -50,7 +50,7 @@ Agora o arquivo `.env` deverá estar assim:
     CONVERSATION_WORKSPACE_ID=<VALOR WORKSPACE ID COPIADO SEM ÁSPAS>
   ```
 
-15. Estamos quase lá. Agora edite o arquivo `manifest.yml` e mude `<sua-id>` para que seja a mesma id que você recebeu em seu email de inscrição. Esse passo é muito importante para posterior validação de seu desafio.
+15. Estamos quase lá. Agora edite o arquivo `manifest.yml` e mude `<sua-id>` para que seja a mesma id que você recebeu no assunto em seu email de comfirmação de inscrição. Esse passo é muito importante para posterior validação de seu desafio.
   ```yaml
   ---
 applications:
