@@ -3,11 +3,11 @@ Preparado para ganhar um alienware? Se sim, este será seu primeiro desafio. Lei
 
 ## Passo a Passo
 
-1. Vocé precisará de uma conta na IBM Cloud. Caso ainda não tenha, corra e crie logo a sua clicando [aqui][sign_up].
+1. Vocé precisará de uma conta na IBM Cloud. Caso ainda não tenha, corra e crie logo a sua clicando [aqui][sign_up]. É necessário ter uma conta aqui no GitHUb.
 
 2. Baixe e instale a ferramenta [Cloud-foundry CLI][cloud_foundry], caso ainda não tenha feito.
 
-3. Faça um fork deste projeto e clone (o fork que você acabou de criar) para sua máquina.
+3. Faça um fork (Opção no canto superior à direita, para copiar este projeto para a sua conta GitHub) deste projeto e clone (o fork que você acabou de criar) para sua máquina.
 
 4. Crie o serviço Watson Conversation (Free) em sua conta clicando [aqui][conversation-link]. Permaneça na página para qual foi direcionado após a criação do serviço.
 
@@ -15,7 +15,7 @@ Preparado para ganhar um alienware? Se sim, este será seu primeiro desafio. Lei
 
 6. Uma vez criada a credencial, clique na action `View credentials`. Copie o JSON gerado para um arquivo temporário, logo iremos usá-lo.
 
-7. Ainda na mesma página, volte para a sessão `Manage`.
+7. Ainda na mesma página, clique na opção Manager / Gerenciar, na lateral à esquerda acima.
 
 8. Clique em `Launch Tool`. Caso abra uma tela de login, clique em `Log in with IBM ID`.
 
@@ -50,7 +50,7 @@ Agora o arquivo `.env` deverá estar assim:
     CONVERSATION_WORKSPACE_ID=<VALOR WORKSPACE ID COPIADO SEM ÁSPAS>
   ```
 
-15. Estamos quase lá. Agora edite o arquivo `manifest.yml` e mude `<sua-id>` para que seja a mesma id que você recebeu em seu email de inscrição. Esse passo é muito importante para posterior validação de seu desafio.
+15. Estamos quase lá. Agora edite o arquivo `manifest.yml` e mude `<sua-id>` para que seja a mesma id que você recebeu no assunto em seu email de comfirmação de inscrição. Esse passo é muito importante para posterior validação de seu desafio.
   ```yaml
   ---
 applications:
@@ -66,7 +66,7 @@ applications:
 
 16. A partir de agora você precisa instalar (caso ainda não tenha) o NodeJS e o geranciador de pacotes NPM. Siga as instruções disponíveis em https://docs.npmjs.com/getting-started/installing-node. Detalhe muito importante, você precisa pelo menos da versão 8.9.4 do node.
 
-17. Com tudo instalado. Execute o seguinte comando para instalar as dependências do projeto:
+17. Com tudo instalado. Execute o seguinte comando, na pasta do projeto, para instalar as dependências do projeto:
 
   ```none
   npm install

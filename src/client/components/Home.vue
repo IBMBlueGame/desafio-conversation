@@ -9,7 +9,7 @@
         </div>
         <div class="footer">
           <div class="text">
-            <textarea v-model="currentMessage"/>
+            <input v-model="currentMessage"/>
           </div>
           <div class="separator"></div>
           <div class="send-button" @click="talkToBot">
@@ -180,7 +180,7 @@ export default {
     width: 70%;
   }
 
-  .footer > .text textarea {
+  .footer > .text input {
     width: 100%;
     height: 90%;
     background: transparent;
@@ -216,7 +216,7 @@ export default {
       font-size: 2em;
     }
 
-    .footer > .text textarea {
+    .footer > .text input {
       font-size: 2em;
     }
 
